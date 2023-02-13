@@ -16,13 +16,6 @@ public class InputEscola {
         
         media = (nota1 + nota2)/2;
         
-        /*if(media >= 7){
-            JOptionPane.showInputDialog(media, "Aprovado, parabéns!");
-        }else{
-            JOptionPane.showInputDialog(media,"Reprovado, tente ano que vêm!");
-        }
-        */
-        
         JOptionPane.showMessageDialog(null, "Média: " + media);
     }
 }
