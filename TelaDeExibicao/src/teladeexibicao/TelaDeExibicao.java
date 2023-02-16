@@ -10,7 +10,6 @@ import javax.swing.WindowConstants;
 public class TelaDeExibicao {
 
     public static void main(String[] args) {
-        int i;
         JFrame janela = new JFrame ("Cadastro de Comida");
         janela.setBounds(750, 300, 300, 650);
         janela.setDefaultCloseOperation(WindowConstants.DISPOSE_ON_CLOSE);
@@ -18,19 +17,19 @@ public class TelaDeExibicao {
         JPanel Panel1 = new JPanel();
         
         JLabel text1 = new JLabel();
-        text1.setText("1° comida ");
+        text1.setText("1° ingrediente");
         JTextArea compresstext1 = new JTextArea(1,20);
         
         JLabel text2 = new JLabel();
-        text2.setText("2° comida ");
+        text2.setText("2° ingrediente");
         JTextArea compresstext2 = new JTextArea(1,20);
        
         JLabel text3 = new JLabel();
-        text3.setText("3° comida ");
+        text3.setText("3° ingrediente");
         JTextArea compresstext3 = new JTextArea(1,20);
         
         JLabel text4 = new JLabel();
-        text4.setText("4° comida ");
+        text4.setText("4° ingrediente");
         JTextArea compresstext4 = new JTextArea(1,20);
         
         JLabel espaço1 = new JLabel();
